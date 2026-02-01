@@ -1,0 +1,1 @@
+Este repositorio contiene una colección de proyectos desarrollados en .NET / C#, creados con el objetivo de fortalecer mis habilidades como desarrollador backend y fullstack, así como servir de portafolio técnico.
