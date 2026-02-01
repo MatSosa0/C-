@@ -1,0 +1,14 @@
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\bin\Debug\net10.0\UserManagement.Data.deps.json
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\bin\Debug\net10.0\UserManagement.Data.runtimeconfig.json
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\bin\Debug\net10.0\UserManagement.Data.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\bin\Debug\net10.0\UserManagement.Data.pdb
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.csproj.AssemblyReference.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.AssemblyInfo.cs
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\refint\UserManagement.Data.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.pdb
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\UserManagement.Data.genruntimeconfig.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Data\obj\Debug\net10.0\ref\UserManagement.Data.dll

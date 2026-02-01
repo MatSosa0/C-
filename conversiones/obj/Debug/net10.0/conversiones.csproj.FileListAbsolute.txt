@@ -1,0 +1,14 @@
+C:\Users\Matias\Documents\GitHub\C#\conversiones\bin\Debug\net10.0\conversiones.exe
+C:\Users\Matias\Documents\GitHub\C#\conversiones\bin\Debug\net10.0\conversiones.deps.json
+C:\Users\Matias\Documents\GitHub\C#\conversiones\bin\Debug\net10.0\conversiones.runtimeconfig.json
+C:\Users\Matias\Documents\GitHub\C#\conversiones\bin\Debug\net10.0\conversiones.dll
+C:\Users\Matias\Documents\GitHub\C#\conversiones\bin\Debug\net10.0\conversiones.pdb
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.AssemblyInfo.cs
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.dll
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\refint\conversiones.dll
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.pdb
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\conversiones.genruntimeconfig.cache
+C:\Users\Matias\Documents\GitHub\C#\conversiones\obj\Debug\net10.0\ref\conversiones.dll

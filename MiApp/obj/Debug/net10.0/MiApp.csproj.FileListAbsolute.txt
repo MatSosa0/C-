@@ -1,0 +1,14 @@
+C:\Users\Matias\Documents\GitHub\C#\MiApp\bin\Debug\net10.0\MiApp.exe
+C:\Users\Matias\Documents\GitHub\C#\MiApp\bin\Debug\net10.0\MiApp.deps.json
+C:\Users\Matias\Documents\GitHub\C#\MiApp\bin\Debug\net10.0\MiApp.runtimeconfig.json
+C:\Users\Matias\Documents\GitHub\C#\MiApp\bin\Debug\net10.0\MiApp.dll
+C:\Users\Matias\Documents\GitHub\C#\MiApp\bin\Debug\net10.0\MiApp.pdb
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.AssemblyInfo.cs
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.dll
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\refint\MiApp.dll
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.pdb
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\MiApp.genruntimeconfig.cache
+C:\Users\Matias\Documents\GitHub\C#\MiApp\obj\Debug\net10.0\ref\MiApp.dll

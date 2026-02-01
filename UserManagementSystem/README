@@ -1,0 +1,719 @@
+# Sistema de Gestión de Usuarios
+
+Sistema web desarrollado en **ASP.NET Core 9** con arquitectura de 3 capas para la gestión completa de usuarios (CRUD) con autenticación, validaciones y dashboard interactivo.
+
+---
+## Requisitos Previos
+
+Antes de ejecutar la aplicación, asegúrate de tener instalado:
+
+-  **.NET 9 SDK** - [Descargar aquí](https://dotnet.microsoft.com/download/dotnet/9.0)
+-  **SQL Server 2019 o superior** (Express o cualquier edición) - [Descargar aquí](https://www.microsoft.com/sql-server/sql-server-downloads)
+-  **SQL Server Management Studio (SSMS)** - [Descargar aquí](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
+
+---
+## Instalación
+
+### Paso 1: Descomprimir el proyecto
+
+1. Descomprime el archivo `.zip` con contraseña
+2. Coloca la carpeta `UserManagementSystem` en una ubicación de tu preferencia
+3. Ejemplo: `C:\Proyectos\UserManagementSystem`
+
+### Paso 2: Restaurar paquetes NuGet
+
+Abre una terminal (PowerShell o CMD) y ejecuta:
+
+```bash
+cd C:\ruta\a\tu\proyecto\UserManagementSystem
+dotnet restore
+```
+
+### Paso 3: Configurar la base de datos
+
+#### 3.1 Actualizar cadena de conexión
+
+Edita el archivo: `UserManagement.Web/appsettings.json`
+
+**Si usas Windows Authentication:**
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=UserManagementDB;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true"
+  }
+}
+```
+
+**Si usas SQL Server Authentication:**
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=UserManagementDB;User Id=sa;Password=TU_PASSWORD;TrustServerCertificate=True;MultipleActiveResultSets=true"
+  }
+}
+```
+
+**Nota:** Cambia `localhost\\SQLEXPRESS` por tu servidor SQL si es diferente.
+
+#### 3.2 Crear la base de datos automáticamente
+
+```bash
+cd UserManagement.Web
+dotnet ef database update --project ../UserManagement.Data --startup-project .
+```
+
+Este comando creará automáticamente:
+- Base de datos `UserManagementDB`
+- Tabla `Usuarios` con todas sus columnas
+- Índices y restricciones
+
+#### 3.3 Insertar usuario administrador
+
+Abre **SQL Server Management Studio (SSMS)** y ejecuta:
+
+```sql
+USE UserManagementDB;
+GO
+
+-- Usuario inicial: admin / Admin@123
+INSERT INTO Usuarios (NombreCompleto, NombreUsuario, Password, Correo, Estatus, FechaAlta)
+VALUES (
+    'Administrador del Sistema',
+    'admin',
+    '$2a$11$Ng7VKwHGkdMqMNYdEbBOA.mWuCrMLsQxXYGQOxIwCPpJH0OzXFnqS',
+    'admin@sistema.com',
+    1,
+    GETDATE()
+);
+GO
+```
+
+---
+
+## Ejecutar la Aplicación
+
+### Opción 1: Desde la terminal
+
+```bash
+cd UserManagement.Web
+dotnet run
+```
+
+Url : http://localhost:5187
+```
+
+### Opción 2: Desde Visual Studio
+
+1. Abre la solución `UserManagementSystem.sln`
+2. Presiona `F5` o click en "Start"
+
+---
+
+## Acceso al Sistema
+
+1. Abre tu navegador web
+2. Ve a: `http://localhost:5187` (o el puerto que te indique)
+3. Ingresa las credenciales:
+   - **Usuario:** `admin`
+   - **Contraseña:** `Admin@123`
+4. Click en **"Ingresar"**
+
+ ¡Listo! Accederás al Dashboard del sistema.
+
+---
+
+## Guía de Uso
+
+### Dashboard (Pantalla Principal)
+
+Al iniciar sesión verás:
+
+- **4 tarjetas con estadísticas:**
+  - Total de usuarios registrados
+  - Usuarios activos
+  - Usuarios inactivos
+  - Usuarios registrados hoy
+
+- **Gráficos interactivos:**
+  - Gráfico circular: Distribución de usuarios por estatus
+  - Gráfico de barras: Estadísticas generales
+
+- **Tabla:** Últimos 5 usuarios registrados
+
+---
+
+### Gestión de Usuarios
+
+Click en **"Usuarios"** en el menú superior.
+
+#### Crear un Nuevo Usuario
+
+1. Click en el botón **"Nuevo Usuario"**
+2. Se abrirá un modal, completa los campos:
+   - **Nombre Completo:** Nombre y apellido del usuario
+   - **Nombre de Usuario:** Usuario único (sin espacios)
+   - **Contraseña:** Debe cumplir los requisitos:
+     - Mínimo 9 caracteres
+     - Al menos 1 mayúscula
+     - Al menos 1 minúscula
+     - Al menos 1 número
+     - Al menos 1 carácter especial (@$!%*?&)
+   - **Correo Electrónico:** Email válido
+   - **Estatus:** Activo o Inactivo
+3. Click en **"Guardar"**
+
+ El usuario se creará y aparecerá en la tabla automáticamente.
+
+**Ejemplos de contraseñas válidas:**
+- `MiClave123!`
+- `Usuario@2024`
+- `Admin$Pass9`
+
+---
+
+####  Editar un Usuario
+
+1. En la tabla de usuarios, click en el botón amarillo **(Editar)**
+2. Se abrirá el modal con los datos del usuario
+3. Modifica los campos que necesites
+4. **Nota:** Si no quieres cambiar la contraseña, deja el campo vacío
+5. Click en **"Guardar"**
+
+Los cambios se aplicarán inmediatamente.
+
+---
+
+#### Eliminar un Usuario
+
+1. En la tabla de usuarios, click en el botón rojo **(Eliminar)**
+2. Confirma la acción en el mensaje de advertencia
+3. Click en **"Sí, eliminar"**
+
+ El usuario será eliminado permanentemente.
+
+ **Advertencia:** Esta acción no se puede deshacer.
+
+---
+
+### Cerrar Sesión
+
+1. Click en el botón **"Salir"** en la esquina superior derecha
+2. Serás redirigido a la pantalla de login
+
+---
+
+## Características del Sistema
+
+### Funcionalidades Implementadas
+
+- **Autenticación segura** con contraseñas encriptadas (BCrypt)
+- **CRUD completo** de usuarios (Crear, Leer, Actualizar, Eliminar)
+- **Validaciones robustas:**
+  - En el cliente (JavaScript)
+  - En el servidor (C#)
+- **Modales interactivos** para crear/editar sin recargar la página
+- **AJAX** para operaciones sin interrupciones
+- **Dashboard con gráficos** dinámicos usando Chart.js
+- **Alertas elegantes** con SweetAlert2
+- **Diseño responsive** con Bootstrap 5
+- **Manejo de sesiones** para mantener al usuario autenticado
+
+### Arquitectura
+
+El proyecto está estructurado en 3 capas:
+
+```
+UserManagementSystem/
+├── UserManagement.Data/        # Capa de Datos
+│   ├── Context/                # DbContext de Entity Framework
+│   ├── Entities/               # Modelos de base de datos
+│   └── Repositories/           # Acceso a datos
+│
+├── UserManagement.Business/    # Capa de Negocio
+│   ├── DTOs/                   # Data Transfer Objects
+│   └── Services/               # Lógica de negocio
+│
+└── UserManagement.Web/         # Capa de Presentación
+    ├── Controllers/            # Controladores MVC
+    ├── Views/                  # Vistas Razor
+    └── wwwroot/                # Archivos estáticos (JS, CSS)
+```
+
+### Seguridad
+
+- Contraseñas encriptadas con **BCrypt** (no se almacenan en texto plano)
+- Validación de usuarios activos antes de permitir acceso
+- Sesiones con tiempo de expiración (30 minutos de inactividad)
+- Validaciones tanto en cliente como en servidor
+
+---
+
+## Encriptación de Contraseñas
+
+### ¿Por qué BCrypt?
+
+**BCrypt** es una función de hash criptográfico diseñada específicamente para contraseñas. A diferencia de otras opciones:
+
+- **Unidireccional:** Las contraseñas NUNCA se pueden recuperar, solo se verifican
+- **Salt único:** Cada contraseña genera un hash diferente aunque sea idéntica
+- **Lento a propósito:** Toma ~0.1 segundos por verificación (ralentiza ataques de fuerza bruta)
+- **Escalable:** Si las computadoras son más rápidas, BCrypt puede ser más lento
+
+### Implementación
+
+**Crear usuario con contraseña encriptada:**
+```csharp
+var passwordEncriptado = BCrypt.Net.BCrypt.HashPassword(password);
+usuario.Password = passwordEncriptado;
+```
+
+**Verificar contraseña en login:**
+```csharp
+bool esValido = BCrypt.Net.BCrypt.Verify(passwordIngresada, hashEnBD);
+```
+
+### Ejemplo Real
+
+- **Contraseña ingresada:** `Admin@123`
+- **Hash en BD:** `$2a$11$Ng7VKwHGkdMqMNYdEbBOA.mWuCrMLsQxXYGQOxIwCPpJH0OzXFnqS`
+- **Resultado:** BCrypt verifica que coinciden
+
+Nadie con acceso a la BD puede saber la contraseña real.
+
+---
+
+## Validaciones Explicadas
+
+### Requisitos de Contraseña
+
+La contraseña debe cumplir estos 5 requisitos simultáneamente:
+
+| Requisito | Ejemplo | Uso |
+|-----------|---------|-----|
+| **Mínimo 9 caracteres** | `12345678` | Dificulta ataques de fuerza bruta |
+| **Mayúscula (A-Z)** | `Admin` | Aumenta complejidad |
+| **Minúscula (a-z)** | `admin` | Aumenta complejidad |
+| **Número (0-9)** | `123` | Aumenta complejidad |
+| **Carácter especial** | `@$!%*?&` | Aumenta complejidad significativamente |
+
+### Patrón Regex Implementado
+
+```regex
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{9,}$
+```
+
+### Validación en Múltiples Niveles
+
+#### 1. Cliente (JavaScript) - `usuario.js`
+Validación en tiempo real mientras escribes:
+- Cambio de color: rojo (inválido) → verde (válido)
+- Mensaje descriptivo de qué falta
+
+#### 2. Servidor (C#) - `DTOs.cs`
+Validación con Data Annotations:
+```csharp
+[RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{9,}$")]
+[StringLength(100, MinimumLength = 9)]
+public string Password { get; set; }
+```
+
+#### 3. Lógica de Negocio - `UsuarioService.cs`
+Validaciones adicionales:
+- Nombre de usuario único
+- Email válido
+- Usuario no duplicado
+
+### Ejemplos
+
+**Contraseñas válidas:**
+- `Admin@123`
+- `MiClave123!` 
+- `Usuario$2024` 
+- `Pass@word99` 
+
+**Contraseñas inválidas:**
+- `admin123`  (sin mayúscula ni carácter especial)
+- `Admin123`  (sin carácter especial)
+- `Admin@12`  (menos de 9 caracteres)
+- `ADMIN@123`  (sin minúscula)
+
+---
+
+## Flujo de la Aplicación
+
+### 1. Login
+```
+Usuario ingresa credenciales
+         ↓
+Servidor verifica en BD (LINQ + EF)
+         ↓
+BCrypt compara contraseña
+         ↓
+Si usuario está activo → Crear sesión
+         ↓
+Redirigir a Dashboard
+```
+
+### 2. CRUD de Usuarios (Create/Read/Update/Delete)
+```
+Usuario hace click en botón
+         ↓
+JavaScript abre modal (sin recargar página)
+         ↓
+Validación cliente (en tiempo real)
+         ↓
+Envío AJAX al servidor
+         ↓
+Validación servidor
+         ↓
+Guardar en BD con Entity Framework
+         ↓
+Retornar resultado JSON
+         ↓
+Actualizar tabla con SweetAlert
+```
+
+### 3. Dashboard
+```
+Usuario accede a Dashboard
+         ↓
+Servidor obtiene estadísticas de BD (LINQ)
+         ↓
+Renderiza gráficos con Chart.js
+         ↓
+Muestra datos en tiempo real
+```
+
+---
+
+## Decisiones Técnicas
+
+### ¿Por qué Arquitectura de 3 Capas?
+
+| Capa | Responsabilidad | Archivos |
+|------|-----------------|----------|
+| **Presentación** | UI, Controllers, Vistas | `Controllers/`, `Views/`, `wwwroot/` |
+| **Negocio** | Lógica, validaciones, servicios | `Services/`, `DTOs/` |
+| **Datos** | Acceso a BD, Entity Framework | `DbContext/`, `Repositories/`, `Entities/` |
+
+**Ventajas:**
+- Fácil de mantener (cada capa tiene una responsabilidad)
+- Fácil de testear (puedo testear servicios sin la UI)
+- Escalable (puedo agregar capas sin afectar las demás)
+- Reutilizable (los servicios pueden usarse desde APIs, Consola, etc.)
+
+### ¿Por qué Entity Framework?
+
+**Vs SQL Directo:**
+- Protege contra inyección SQL automáticamente
+- Código más limpio y legible
+- Cambiar de BD es más fácil
+- Migraciones automáticas
+
+**Vs Dapper:**
+- Mejor para proyectos grandes
+- Soporte para relaciones complejas
+- LINQ (consultas fuertemente tipadas)
+
+### ¿Por qué AJAX en Modales?
+
+**Ventajas:**
+- Sin recargar la página (rápido)
+- Mejor experiencia de usuario
+- Funciona bien en móviles
+- Moderno y profesional
+
+### ¿Por qué DTOs?
+
+```csharp
+// DTO: Solo los datos que necesito transferir
+public class UsuarioDTO {
+    public string NombreCompleto { get; set; }
+    public string Password { get; set; }  // En el formulario
+}
+
+// Entity: Modelo de BD (no expongo contraseña)
+public class Usuario {
+    public int Id { get; set; }
+    public string Password { get; set; }  // Encriptada
+}
+```
+
+**Razones:**
+- Seguridad (no expongo datos innecesarios)
+- Menos datos en la red
+- Claridad (qué datos espera cada endpoint)
+- Validaciones específicas por contexto
+
+---
+
+## Solución de Problemas
+
+### Problema: "Cannot connect to database"
+
+**Solución:**
+1. Verifica que SQL Server esté ejecutándose
+2. Confirma que la cadena de conexión en `appsettings.json` sea correcta
+3. Prueba conectarte con SSMS usando los mismos datos
+
+### Problema: "Usuario o contraseña incorrectos"
+
+**Solución:**
+1. Verifica que hayas ejecutado el script SQL para insertar el usuario admin
+2. Confirma que el usuario exista ejecutando en SSMS:
+   ```sql
+   SELECT * FROM Usuarios WHERE NombreUsuario = 'admin';
+   ```
+3. Si no existe, ejecuta nuevamente el script de inserción
+
+### Problema: "La contraseña no cumple los requisitos"
+
+**Solución:**
+La contraseña debe tener:
+- Mínimo 9 caracteres
+- Al menos una letra MAYÚSCULA
+- Al menos una letra minúscula
+- Al menos un número (0-9)
+- Al menos un carácter especial: @ $ ! % * ? &
+
+**Ejemplo válido:** `MiClave123!`
+
+### Problema: Error 404 al ejecutar
+
+**Solución:**
+1. Asegúrate de estar en la carpeta correcta:
+   ```bash
+   cd UserManagement.Web
+   dotnet run
+   ```
+2. Verifica que todos los archivos de las vistas existan
+
+---
+
+## Base de Datos
+
+### Tabla: Usuarios
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| `Id` | INT (Identity) | ID único autoincremental |
+| `NombreCompleto` | NVARCHAR(200) | Nombre completo del usuario |
+| `NombreUsuario` | NVARCHAR(100) | Nombre de usuario único |
+| `Password` | NVARCHAR(500) | Contraseña encriptada |
+| `Correo` | NVARCHAR(200) | Correo electrónico |
+| `Estatus` | BIT | 1=Activo, 0=Inactivo |
+| `FechaAlta` | DATETIME2 | Fecha de registro |
+| `FechaModificacion` | DATETIME2 | Fecha de última modificación |
+
+---
+
+## Tecnologías Utilizadas
+
+- **Framework:** ASP.NET Core 10 MVC
+- **Lenguaje:** C# 12
+- **ORM:** Entity Framework Core 9
+- **Base de Datos:** SQL Server 2019+
+- **Frontend:** 
+  - Bootstrap 5.3
+  - jQuery 3.7
+  - Font Awesome 6.4
+  - SweetAlert2
+  - Chart.js
+- **Encriptación:** BCrypt.Net-Next
+- **Patrón:** Arquitectura de 3 capas
+- **Inyección de Dependencias:** ASP.NET Core DI
+
+---
+
+## Documentación del Proyecto
+
+Este proyecto incluye documentación completa para diferentes propósitos:
+
+| Documento | Descripción |
+|-----------|------------|
+| **README.md** (este archivo) | Guía de instalación, uso y troubleshooting |
+| **REQUISITOS_CUMPLIDOS.md** | Checklist detallado de cada requisito de EY |
+| **PREGUNTAS_ENTREVISTA.md** | Preguntas probables y respuestas profesionales |
+| **RESUMEN_EJECUTIVO.md** | Visión general del proyecto (1 página) |
+
+**Para entrevista:** Lee primero `RESUMEN_EJECUTIVO.md` y luego `PREGUNTAS_ENTREVISTA.md`
+
+---
+
+## Credenciales por Defecto
+
+| Usuario | Contraseña | Rol |
+|---------|------------|-----|
+| admin | Admin@123 | Administrador |
+
+**Importante:** Cambia la contraseña del administrador después del primer inicio de sesión.
+
+---
+
+## Mejoras Futuras
+
+Las siguientes mejoras podrían implementarse para hacer el sistema más robusto:
+
+### Corto Plazo (1-2 semanas)
+- [ ] Pruebas unitarias con xUnit
+- [ ] Pruebas de integración
+- [ ] GitHub Actions para CI/CD
+- [ ] Dockerizar la aplicación
+- [ ] Rate limiting para intentos de login
+- [ ] Bloqueo de cuenta tras X intentos fallidos
+
+### Mediano Plazo (1-2 meses)
+- [ ] API REST separada (no solo MVC)
+- [ ] Autenticación con JWT
+- [ ] Dos factores de autenticación (2FA)
+- [ ] Recuperación de contraseña por email
+- [ ] Auditoría (quién cambió qué y cuándo)
+- [ ] Logs centralizados (Serilog)
+- [ ] Roles y permisos (Authorization)
+
+### Largo Plazo (2-3 meses)
+- [ ] Frontend con React/Next.js
+- [ ] Micrservicios (separar Auth, Usuarios, Dashboard)
+- [ ] GraphQL (alternativa a REST)
+- [ ] WebSockets (notificaciones en tiempo real)
+- [ ] Caché distribuido (Redis)
+- [ ] Búsqueda avanzada (Elasticsearch)
+
+---
+
+## Patrones de Diseño Utilizados
+
+### 1. **Arquitectura de 3 Capas**
+```
+Presentación ↔ Negocio ↔ Datos
+   (UI)        (Logic)   (BD)
+```
+
+### 2. **Repository Pattern**
+Abstrae el acceso a datos. Ventajas:
+- Centralizar lógica de acceso
+- Facilita testing (mockear BD)
+- Cambiar ORM sin afectar servicios
+
+### 3. **Service Pattern**
+Contiene lógica de negocio. Ventajas:
+- Reutilizable desde cualquier controlador
+- Fácil de testear
+- Lógica centralizada
+
+### 4. **DTO (Data Transfer Object)**
+Objetos para transferir datos entre capas:
+- No expongo entidades directamente
+- Valido solo lo que necesito
+- Mejor seguridad
+
+### 5. **Inyección de Dependencias (DI)**
+```csharp
+// En Program.cs
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+
+// En Controlador
+public UsuarioController(IUsuarioService usuarioService) {
+    _usuarioService = usuarioService; // Inyectado automáticamente
+}
+```
+
+Ventajas:
+- Desacoplamiento
+- Testing más fácil
+- Flexibilidad
+
+---
+
+## Cómo Testear Manualmente
+
+### Test 1: Crear Usuario
+1. Login con admin/Admin@123
+2. Click "Usuarios"
+3. Click "Nuevo Usuario"
+4. Completa con datos válidos:
+   - Nombre: `Test User`
+   - Usuario: `testuser`
+   - Password: `Test@1234`
+   - Email: `test@test.com`
+5. Click "Guardar"
+6. Verifica que aparezca en la tabla 
+
+### Test 2: Validación de Contraseña
+1. Intenta crear usuario con: `abc` 
+2. Verifica que se rechace
+3. Intenta con: `Abc@1234567` 
+4. Verifica que se acepte
+
+### Test 3: Editar Usuario
+1. Click "Editar" en un usuario
+2. Cambia Nombre Completo
+3. Deja Password vacío (para no cambiar)
+4. Click "Guardar"
+5. Verifica que solo cambió el nombre 
+
+### Test 4: Desactivar Usuario
+1. Edita un usuario
+2. Cambiar Estatus a "Inactivo"
+3. Click "Guardar"
+4. Intenta loguearte con ese usuario 
+5. Verifica que no deja entrar
+
+### Test 5: Dashboard
+1. Crea varios usuarios
+2. Verifica que el dashboard se actualice
+3. Consulta SQL:
+   ```sql
+   SELECT COUNT(*) FROM Usuarios WHERE Estatus = 1
+   ```
+4. Compara con el gráfico 
+
+---
+
+## Recursos Útiles
+
+### Documentación Oficial
+- [ASP.NET Core Documentation](https://learn.microsoft.com/aspnet/core/)
+- [Entity Framework Core](https://learn.microsoft.com/ef/core/)
+- [C# Documentation](https://learn.microsoft.com/dotnet/csharp/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/)
+
+### Seguridad
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [BCrypt Explicado](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+- [Validaciones en .NET](https://learn.microsoft.com/dotnet/fundamentals/runtime-libraries/system-componentmodel-dataannotations)
+
+### Buenas Prácticas
+- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
+- [Code Review Best Practices](https://github.com/google/eng-practices)
+
+### Librerías Utilizadas
+- [BCrypt.Net-Next](https://github.com/BcryptNet/bcrypt.net)
+- [Chart.js](https://www.chartjs.org/docs/latest/)
+- [SweetAlert2](https://sweetalert2.github.io/)
+- [jQuery Validation](https://jqueryvalidation.org/)
+
+---
+
+## Soporte
+
+Si encuentras problemas:
+
+1. **Revisa la sección "Solución de Problemas"** arriba
+2. **Verifica los logs:**
+   ```bash
+   dotnet run --verbosity detailed
+   ```
+3. **Abre SQL Server Management Studio** y verifica:
+   - Que la BD exista
+   - Que la tabla `Usuarios` esté creada
+   - Que el usuario `admin` exista
+
+---
+
+## Licencia
+
+Este proyecto fue desarrollado como prueba técnica para EY.
+
+**Desarrollado con ASP.NET Core 10** 

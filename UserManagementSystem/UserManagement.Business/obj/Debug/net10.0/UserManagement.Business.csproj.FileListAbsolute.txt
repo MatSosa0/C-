@@ -1,0 +1,15 @@
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.csproj.AssemblyReference.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.AssemblyInfo.cs
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\bin\Debug\net10.0\UserManagement.Business.deps.json
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\bin\Debug\net10.0\UserManagement.Business.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\bin\Debug\net10.0\UserManagement.Business.pdb
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\bin\Debug\net10.0\UserManagement.Data.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\bin\Debug\net10.0\UserManagement.Data.pdb
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserMana.47147A98.Up2Date
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\refint\UserManagement.Business.dll
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\UserManagement.Business.pdb
+C:\Users\Matias\Documents\GitHub\C#\UserManagementSystem\UserManagement.Business\obj\Debug\net10.0\ref\UserManagement.Business.dll

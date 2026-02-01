@@ -1,0 +1,157 @@
+@model IEnumerable<UserManagement.Business.DTOs.UsuarioDTO>
+@{
+    ViewData["Title"] = "Gestión de Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-users me-2"></i>Gestión de Usuarios
+                        </h4>
+                        <button type="button" class="btn btn-light" onclick="abrirModalNuevo()">
+                            <i class="fas fa-plus me-2"></i>Nuevo Usuario
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped" id="tablaUsuarios">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre Completo</th>
+                                    <th>Usuario</th>
+                                    <th>Correo</th>
+                                    <th>Estatus</th>
+                                    <th>Fecha Alta</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var usuario in Model)
+                                {
+                                    <tr>
+                                        <td>@usuario.Id</td>
+                                        <td>@usuario.NombreCompleto</td>
+                                        <td>@usuario.NombreUsuario</td>
+                                        <td>@usuario.Correo</td>
+                                        <td>
+                                            @if (usuario.Estatus)
+                                            {
+                                                <span class="badge bg-success">Activo</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-danger">Inactivo</span>
+                                            }
+                                        </td>
+                                        <td>@usuario.FechaAlta.ToString("dd/MM/yyyy HH:mm")</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-warning" onclick="abrirModalEditar(@usuario.Id)">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="btn btn-sm btn-danger" onclick="eliminarUsuario(@usuario.Id)">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para crear/editar usuario -->
+<div class="modal fade" id="modalUsuario" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="modalTitulo">Nuevo Usuario</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="formUsuario">
+                    <input type="hidden" id="usuarioId" />
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="nombreCompleto" class="form-label">Nombre Completo *</label>
+                            <input type="text" class="form-control" id="nombreCompleto" required>
+                            <div class="invalid-feedback">El nombre completo es requerido</div>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="nombreUsuario" class="form-label">Nombre de Usuario *</label>
+                            <input type="text" class="form-control" id="nombreUsuario" required>
+                            <div class="invalid-feedback">El nombre de usuario es requerido</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="password" class="form-label">Contraseña *</label>
+                            <input type="password" class="form-control" id="password" 
+                                   pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@@$!%*?&])[A-Za-z\d@@$!%*?&]{9,}$$"
+                                   minlength="9">
+                            <div class="invalid-feedback">
+                                Mínimo 9 caracteres, debe incluir mayúscula, minúscula, número y carácter especial
+                            </div>
+                            <small class="form-text text-muted">
+                                Mín. 9 caracteres con mayúscula, minúscula, número y carácter especial (@@$!%*?&)
+                            </small>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="correo" class="form-label">Correo Electrónico *</label>
+                            <input type="email" class="form-control" id="correo" required>
+                            <div class="invalid-feedback">Ingrese un correo válido</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="estatus" class="form-label">Estatus *</label>
+                            <select class="form-select" id="estatus" required>
+                                <option value="true">Activo</option>
+                                <option value="false">Inactivo</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-2"></i>Cancelar
+                </button>
+                <button type="button" class="btn btn-primary" onclick="guardarUsuario()">
+                    <i class="fas fa-save me-2"></i>Guardar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/usuario.js"></script>
+}
+
+@section Styles {
+    <style>
+        .was-validated .form-control:invalid {
+            border-color: #dc3545;
+        }
+        .was-validated .form-control:valid {
+            border-color: #198754;
+        }
+    </style>
+}

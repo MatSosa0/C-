@@ -1,0 +1,14 @@
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.AssemblyInfoInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.AssemblyInfo.cs
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Documents\GitHub\C#\const\bin\Debug\net10.0\const.exe
+C:\Users\Matias\Documents\GitHub\C#\const\bin\Debug\net10.0\const.deps.json
+C:\Users\Matias\Documents\GitHub\C#\const\bin\Debug\net10.0\const.runtimeconfig.json
+C:\Users\Matias\Documents\GitHub\C#\const\bin\Debug\net10.0\const.dll
+C:\Users\Matias\Documents\GitHub\C#\const\bin\Debug\net10.0\const.pdb
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.dll
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\refint\const.dll
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.pdb
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\const.genruntimeconfig.cache
+C:\Users\Matias\Documents\GitHub\C#\const\obj\Debug\net10.0\ref\const.dll
