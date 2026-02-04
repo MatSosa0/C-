@@ -1,15 +1,57 @@
 html {
-  font-size: 14px;
+  font-size: 20px;
+  color:white;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 24px;
+    color:white;
   }
 }
 
+a{
+  color:white;  
+}
+
+h1{
+  color: white;
+}
+
+p{
+  color: #d1d1d1;
+}
+
+.border-top {
+  border-top: 1px solid grey;
+}
+.border-bottom {
+  border-bottom: 1px solid grey;
+}
+
+#footer-text{
+  color: white;
+}
+
+header{ 
+  background-color: grey;
+}
+
+h2{
+  color: #258cfb;
+}
+
+.container-fluid{
+  background-color: grey;
+}
+
+.container-fluid a{
+  color: #04080c;
+  background-color: grey;
+}
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem rgb(34, 43, 167), 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -19,6 +61,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #060607;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {

@@ -22,7 +22,7 @@ C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\rjsmcshtml.dsw
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\scopedcss\bundle\TaskManager.styles.css
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\scopedcss\projectbundle\TaskManager.bundle.scp.css
-C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\x9hx9mvgyi-{0}-epkgltd8vz-epkgltd8vz.gz
+C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\x9hx9mvgyi-{0}-alqqg2tlux-alqqg2tlux.gz
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\aoajrqnzyn-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\7qt227jrmt-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\sn5vxzkn1k-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -84,8 +84,8 @@ C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\opo
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\vx6rzb75zs-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\fqfe3sb52e-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\wvmieexqgc-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\mpuju6vuzc-{0}-adyenfh5yr-adyenfh5yr.gz
-C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\qaljqp36z0-{0}-adyenfh5yr-adyenfh5yr.gz
+C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\mpuju6vuzc-{0}-fxicxxltwq-fxicxxltwq.gz
+C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\compressed\qaljqp36z0-{0}-fxicxxltwq-fxicxxltwq.gz
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\Matias\Documents\GitHub\C-\TaskManager\obj\Debug\net10.0\staticwebassets.development.json
