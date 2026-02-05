@@ -1,0 +1,14 @@
+@model TaskManager.Models.TaskItem
+
+<h1>@Model.Title</h1>
+
+<p>@Model.Descripcion</p>
+
+@if (Model.IsCompleted)
+{
+    <p>Estado: Completada</p>
+}
+else
+{
+    <p>Estado: Pendiente</p>
+}
