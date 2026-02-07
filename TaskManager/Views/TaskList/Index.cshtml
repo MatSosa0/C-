@@ -1,0 +1,15 @@
+@model TaskManager.Models.TaskListItem
+
+<h1>Lista de Tareas</h1>
+
+<ul>
+    @foreach(var task in Model.Tasks)
+    {
+        <li> 
+            <strong>@task.Title</strong> - @task.Descripcion - 
+            Creada el @task.CreatedAd.ToShortDateString() - 
+            @if (task.IsCompleted) {<span>Completado</span> } 
+            else {<span>Pendiente</span>}
+        </li>
+    }
+</ul>

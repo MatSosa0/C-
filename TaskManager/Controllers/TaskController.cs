@@ -10,10 +10,13 @@ namespace TaskManager.Controllers
             var task = new TaskItem
             {
                 Id = 1,
-                Title = "Mi primera Tarea",
-                Descripcion = "Aprender ASP.NET Core MVC",
-                IsCompleted = false
+                Title = "Tarea cambiada",
+                Descripcion = "Probando flujo controller + View",
+                CreatedAd = DateTime.Now,
+                IsCompleted = true
+            
             };
+
             return View(task);
         }
     }

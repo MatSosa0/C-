@@ -41,6 +41,10 @@ h2{
   color: #258cfb;
 }
 
+li{
+  color: #d1d1d1;  
+}
+
 .container-fluid{
   background-color: grey;
 }
