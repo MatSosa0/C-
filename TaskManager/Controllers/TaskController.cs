@@ -12,7 +12,7 @@ namespace TaskManager.Controllers
                 Id = 1,
                 Title = "Tarea cambiada",
                 Descripcion = "Probando flujo controller + View",
-                CreatedAd = DateTime.Now,
+                CreatedAt = DateTime.UtcNow,
                 IsCompleted = true
             
             };

@@ -6,7 +6,7 @@ namespace TaskManager.Models
         public string Title { get; set; } = string.Empty;
         public string Descripcion { get; set; } = string.Empty;
 
-        public DateTime CreatedAd { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public bool IsCompleted { get; set; }
     }
 }

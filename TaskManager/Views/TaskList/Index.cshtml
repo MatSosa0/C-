@@ -2,11 +2,24 @@
 
 <h1>Tareas desde la base de datos</h1>
 
-<ul>
-    @foreach(var task in Model)
-    {
-        <li> 
-            <strong>@task.Title</strong> - @task.Descripcion - 
-        </li>
-    }
-</ul>
+<a asp-action="Create" class="btn btn-primary mb-3">Crear Nueva Tarea</a>>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Descripcion</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model){
+            <tr>
+                <td>@task.Title</td>
+                <td>@task.Descripcion</td>
+                <td>@(task.IsCompleted ? "✔" : "Pendiente")</td>
+
+            </tr>
+        }
+    </tbody>
+</table>"

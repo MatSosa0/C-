@@ -1,0 +1,15 @@
+@model TaskManager.Models.TaskItem
+
+<h2>Crear Nueva Tarea</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label>Titulo</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>Descripcion</label>
+        <input asp-for="Descripcion" />
+    </div>
+    <button type="submit">Crear Tarea</button>
+</form>
