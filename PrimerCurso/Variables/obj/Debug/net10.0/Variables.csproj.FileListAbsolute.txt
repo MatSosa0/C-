@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\bin\Debug\net10.0\Variables.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\bin\Debug\net10.0\Variables.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\bin\Debug\net10.0\Variables.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\bin\Debug\net10.0\Variables.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\bin\Debug\net10.0\Variables.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\refint\Variables.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\Variables.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Variables\obj\Debug\net10.0\ref\Variables.dll
