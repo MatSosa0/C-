@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="../Funciones/Funciones.csproj" Id="be11dc2c-575e-4756-8170-f275d9e5dc53" />
+  <Project Path="../TipoDeDatos/TipoDeDatos.csproj" Id="f253ac14-9e04-4627-8c07-70deb9280369" />
   <Project Path="Variables.csproj" />
 </Solution>

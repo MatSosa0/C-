@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\bin\Debug\net10.0\TipoDeDatos.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\bin\Debug\net10.0\TipoDeDatos.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\bin\Debug\net10.0\TipoDeDatos.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\bin\Debug\net10.0\TipoDeDatos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\bin\Debug\net10.0\TipoDeDatos.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\refint\TipoDeDatos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\ref\TipoDeDatos.dll
