@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\bin\Debug\net10.0\SentenciasIfElseIf.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\bin\Debug\net10.0\SentenciasIfElseIf.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\bin\Debug\net10.0\SentenciasIfElseIf.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\bin\Debug\net10.0\SentenciasIfElseIf.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\bin\Debug\net10.0\SentenciasIfElseIf.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\refint\SentenciasIfElseIf.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\ref\SentenciasIfElseIf.dll
