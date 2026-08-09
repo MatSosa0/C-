@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Variables\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{583EF56B-406D-4F73-A744-FE45A930A42A}|..\\SwitchCase\\SwitchCase.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\switchcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5059F613-0B4F-46E0-AEBD-4C0B9AC622E8}|..\\SentenciasIfElseIf\\SentenciasIfElseIf.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\sentenciasifelseif\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,6 +32,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\SwitchCase\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SwitchCase\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\SwitchCase\\Program.cs",
+              "RelativeToolTip": "..\\SwitchCase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T23:37:21.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\SentenciasIfElseIf\\Program.cs",
               "RelativeDocumentMoniker": "..\\SentenciasIfElseIf\\Program.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\SentenciasIfElseIf\\Program.cs",
@@ -40,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Funciones\\Program.cs",
               "RelativeDocumentMoniker": "..\\Funciones\\Program.cs",
@@ -52,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\TipoDeDatos\\Program.cs",
               "RelativeDocumentMoniker": "..\\TipoDeDatos\\Program.cs",
@@ -64,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Variables\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
