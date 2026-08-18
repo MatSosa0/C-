@@ -1,7 +1,9 @@
 <Solution>
+  <Project Path="../Arreglos/Arreglos.csproj" Id="53369656-ec01-4ae7-9397-2ddfd20e3766" />
   <Project Path="../Funciones/Funciones.csproj" Id="be11dc2c-575e-4756-8170-f275d9e5dc53" />
   <Project Path="../SentenciasIfElseIf/SentenciasIfElseIf.csproj" Id="5059f613-0b4f-46e0-aebd-4c0b9ac622e8" />
   <Project Path="../SwitchCase/SwitchCase.csproj" Id="583ef56b-406d-4f73-a744-fe45a930a42a" />
   <Project Path="../TipoDeDatos/TipoDeDatos.csproj" Id="f253ac14-9e04-4627-8c07-70deb9280369" />
+  <Project Path="../While/While.csproj" Id="8bd10281-cc83-4865-9875-889f36c4f9d7" />
   <Project Path="Variables.csproj" />
 </Solution>
