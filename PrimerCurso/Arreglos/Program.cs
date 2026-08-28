@@ -28,10 +28,17 @@ namespace Arreglos
 
             friends[6] = "Carlos";
 
-            for (int i = 1; i <= (friends.Length - 1); i++)
+            for (int i = 0; i < friends.Length; i++)
             {
                 Console.WriteLine(friends[i]);
             }
+
+            int count = 0;
+            do
+            {
+                Console.WriteLine(friends[count]);
+                count++;
+            } while (count < friends.Length);
         }
     }
 }
