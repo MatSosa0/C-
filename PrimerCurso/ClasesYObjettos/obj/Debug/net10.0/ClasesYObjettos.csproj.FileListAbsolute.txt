@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\bin\Debug\net10.0\ClasesYObjettos.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\bin\Debug\net10.0\ClasesYObjettos.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\bin\Debug\net10.0\ClasesYObjettos.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\bin\Debug\net10.0\ClasesYObjettos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\bin\Debug\net10.0\ClasesYObjettos.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\refint\ClasesYObjettos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ref\ClasesYObjettos.dll

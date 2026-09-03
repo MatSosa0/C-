@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentenciasIfElseIf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4bd3616e4afed287a3a32da9b63b11864c0c05c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+021e1ea93c7e764dca026450e0426e74ae4cb0e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentenciasIfElseIf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentenciasIfElseIf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
