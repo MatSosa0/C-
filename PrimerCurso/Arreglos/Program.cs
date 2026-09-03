@@ -19,20 +19,20 @@ namespace Arreglos
 
             friends[0] = "Hector";
             // se agrego el for para no repetir el console.Writeline por cada elemento del arreglo
-            for (int i = 1; i <= (friends.Length - 1); i++)
-            {
-                Console.WriteLine(friends[i]);
-            }
-
-            Console.WriteLine("Se agrega un nuevo amigo");
-
-            friends[6] = "Carlos";
-
             for (int i = 0; i < friends.Length; i++)
             {
                 Console.WriteLine(friends[i]);
             }
 
+            Console.WriteLine("Se agrega un nuevo amigo");
+            friends[6] = "Carlos";
+            Console.WriteLine("FOR");
+            for (int i = 0; i < friends.Length; i++)
+            {
+                Console.WriteLine(friends[i]);
+            }
+
+            Console.WriteLine("DO WHILE");
             int count = 0;
             do
             {

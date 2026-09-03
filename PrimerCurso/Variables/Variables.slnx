@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../Arreglos/Arreglos.csproj" Id="53369656-ec01-4ae7-9397-2ddfd20e3766" />
+  <Project Path="../ClasesYObjettos/ClasesYObjettos.csproj" Id="7c24c62a-652b-49a4-8e67-c8ec933d35d6" />
   <Project Path="../Funciones/Funciones.csproj" Id="be11dc2c-575e-4756-8170-f275d9e5dc53" />
   <Project Path="../SentenciasIfElseIf/SentenciasIfElseIf.csproj" Id="5059f613-0b4f-46e0-aebd-4c0b9ac622e8" />
   <Project Path="../SwitchCase/SwitchCase.csproj" Id="583ef56b-406d-4f73-a744-fe45a930a42a" />
