@@ -6,9 +6,13 @@ namespace Herencia
     {
         static void Main(string[] args)
         {
-            Doctor doctor1 = new Doctor("Juan", 35);
+            Doctor doctor1 = new Doctor("Juan", 35, "Cardiologo");
 
             Console.WriteLine(doctor1.GetInfo());
+            Console.WriteLine(doctor1.GetData());
+
+            Dev dev1 = new Dev("Arturo", 24, "C#");
+            Console.WriteLine(dev1.GetData());
         }
 
         class People
@@ -30,11 +34,31 @@ namespace Herencia
 
         class Doctor : People
         {
-            public Doctor(string name, int age) : base(name, age)
+            private string _speciality;
+            public Doctor(string name, int age, string speciality) : base(name, age)
             {
+                _speciality = speciality;
+            }
 
+            public string GetData()
+            {
+                return GetInfo() + " " + _speciality;
             }
             
+        }
+
+        class Dev : People
+        {
+            private string _language;
+            public Dev(string name, int age, string language) : base(name, age)
+            {
+                _language = language;
+            }
+
+            public string GetData()
+            {
+                return GetInfo() + " " + _language;
+            }
         }
     }
 }
