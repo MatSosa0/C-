@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\bin\Debug\net10.0\Sobrecarga.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\bin\Debug\net10.0\Sobrecarga.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\bin\Debug\net10.0\Sobrecarga.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\bin\Debug\net10.0\Sobrecarga.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\bin\Debug\net10.0\Sobrecarga.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\refint\Sobrecarga.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\ref\Sobrecarga.dll
