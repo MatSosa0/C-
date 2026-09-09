@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sobrecarga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1939cbe4bc077daec86a011f399b059983ed0ed7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93c8c8b3fa2ac91fb9f51da12ba8ea6cc0c5de1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sobrecarga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sobrecarga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
