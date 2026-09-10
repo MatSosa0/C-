@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Variables\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D556E1C-4407-44CC-B611-3B71019B9299}|..\\Static\\Static.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\static\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D67DD28-F320-4C86-9B88-C94DBAE22B3A}|..\\Sobrecarga\\Sobrecarga.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\sobrecarga\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,18 +34,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Static\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Static\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Static\\Program.cs",
+              "RelativeToolTip": "..\\Static\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T00:07:33.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Sobrecarga\\Program.cs",
               "RelativeDocumentMoniker": "..\\Sobrecarga\\Program.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Sobrecarga\\Program.cs",
               "RelativeToolTip": "..\\Sobrecarga\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T00:39:54.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Herencia\\Program.cs",
               "RelativeDocumentMoniker": "..\\Herencia\\Program.cs",
@@ -54,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\ClasesYObjettos\\Program.cs",
               "RelativeDocumentMoniker": "..\\ClasesYObjettos\\Program.cs",
@@ -66,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Arreglos\\Program.cs",
               "RelativeDocumentMoniker": "..\\Arreglos\\Program.cs",
@@ -78,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\While\\Program.cs",
               "RelativeDocumentMoniker": "..\\While\\Program.cs",
