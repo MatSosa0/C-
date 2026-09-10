@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\bin\Debug\net10.0\Static.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\bin\Debug\net10.0\Static.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\bin\Debug\net10.0\Static.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\bin\Debug\net10.0\Static.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\bin\Debug\net10.0\Static.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\refint\Static.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\ref\Static.dll
