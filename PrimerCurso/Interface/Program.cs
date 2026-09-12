@@ -12,9 +12,26 @@ namespace Interface
                 new Shark("Jaws", 65)
             };
 
+            IFish[] fish = new IFish[]
+            {
+                new Siren (100)
+            };
+
             ShowFish(sharks);
+
+            ShowAnimals(sharks);
         }
 
+        public static void ShowAnimals(IAnimal[] animals)
+        {
+            Console.WriteLine("-- Mostramos animales");
+            int i = 0;
+            while( i < animals.Length)
+            {
+                Console.WriteLine(animals[i].Name);
+                i++;
+            }
+        }
         public static void ShowFish(IFish[] fishs)
         {
             Console.WriteLine("-- Mostramos los peces --");
@@ -26,6 +43,19 @@ namespace Interface
                 Console.WriteLine(fishs[i].Swim());
                 i++;
             }
+        }
+    }
+
+    public class Siren : IFish
+    {
+        public int Speed { get; set; }
+        public Siren(int Speed)
+        {
+            this.Speed = Speed;
+        }
+        public string Swim()
+        {
+            return $"La Sirena nada a {Speed} km/h";
         }
     }
 
