@@ -14,12 +14,13 @@ namespace Interface
 
             IFish[] fish = new IFish[]
             {
-                new Siren (100)
+                new Siren (100),
+                new Shark("tiburonsin", 56)
             };
 
             ShowFish(sharks);
-
             ShowAnimals(sharks);
+            ShowFish(fish);
         }
 
         public static void ShowAnimals(IAnimal[] animals)
