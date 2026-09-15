@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\bin\Debug\net10.0\Generic.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\bin\Debug\net10.0\Generic.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\bin\Debug\net10.0\Generic.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\bin\Debug\net10.0\Generic.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\bin\Debug\net10.0\Generic.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\refint\Generic.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\Generic.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Generic\obj\Debug\net10.0\ref\Generic.dll
