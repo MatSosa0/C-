@@ -5,6 +5,7 @@
   <Project Path="../Generic/Generic.csproj" Id="503ed647-e4d0-4d85-b4f7-4462b0d18c43" />
   <Project Path="../Herencia/Herencia.csproj" Id="3b3248eb-db34-4d7c-9e2d-b7aecb964768" />
   <Project Path="../Interface/Interface.csproj" Id="6e2d9538-77f2-4e6d-a929-f91e975df335" />
+  <Project Path="../Json/Json.csproj" Id="aca7296d-db1a-4dd6-a2ef-2866ee15c893" />
   <Project Path="../SentenciasIfElseIf/SentenciasIfElseIf.csproj" Id="5059f613-0b4f-46e0-aebd-4c0b9ac622e8" />
   <Project Path="../Sobrecarga/Sobrecarga.csproj" Id="5d67dd28-f320-4c86-9b88-c94dbae22b3a" />
   <Project Path="../Static/Static.csproj" Id="2d556e1c-4407-44cc-b611-3b71019b9299" />
