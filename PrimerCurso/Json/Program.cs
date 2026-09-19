@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json;
 
 namespace Json
 {
@@ -6,9 +7,13 @@ namespace Json
     {
         static void Main(string[] args)
         {
-            Beer MyBeer = new Beer() { Name = "Pikantus", Brand = "Erdinger" };
+            Beer myBeer = new Beer() { Name = "Pikantus", Brand = "Erdinger" };
 
-            string json = "{\"Name\": \"Pikantus\",\"Brand \": \"Erdinger\"}";
+            //string json = "{\"Name\": \"Pikantus\",\"Brand \": \"Erdinger\"}";
+
+            string json = JsonSerializer.Serialize(myBeer);
+
+            Beer beer = JsonSerializer.Deserialize<Beer>(json);
 
             Beer[] beers = new Beer[]
             {
@@ -24,9 +29,10 @@ namespace Json
                 }
             };
 
-            string json2 = "[" +
-                "{\"Name\": \"Pikantus\",\"Brand \": \"Erdinger\"}," +
-                "{\"Name\": \"Corona\",\"Brand \": \"Modelo\"}]";
+            string json2 = JsonSerializer.Serialize(beers);
+
+            Beer[] beers2 = JsonSerializer.Deserialize<Beer[]>(json2);
+
         }
 
         public class Beer
