@@ -13,6 +13,13 @@ namespace Lists
             numbers.Add(2);
 
             Console.WriteLine(numbers.Count);
+
+            List<int> numbers2 = new List<int>()
+            {
+                1,2,3,4,5,10,14
+            };
+
+            Console.WriteLine(numbers2.Count);
         }
     }
 }
