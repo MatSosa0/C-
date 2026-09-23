@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\bin\Debug\net10.0\Foreach.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\bin\Debug\net10.0\Foreach.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\bin\Debug\net10.0\Foreach.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\bin\Debug\net10.0\Foreach.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\bin\Debug\net10.0\Foreach.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\refint\Foreach.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\ref\Foreach.dll

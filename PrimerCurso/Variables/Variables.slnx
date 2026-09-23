@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="../Arreglos/Arreglos.csproj" Id="53369656-ec01-4ae7-9397-2ddfd20e3766" />
   <Project Path="../ClasesYObjettos/ClasesYObjettos.csproj" Id="7c24c62a-652b-49a4-8e67-c8ec933d35d6" />
+  <Project Path="../Foreach/Foreach.csproj" Id="86dbe7bb-cdd4-4e84-b7d3-5acf113e3d1d" />
   <Project Path="../Funciones/Funciones.csproj" Id="be11dc2c-575e-4756-8170-f275d9e5dc53" />
   <Project Path="../Generic/Generic.csproj" Id="503ed647-e4d0-4d85-b4f7-4462b0d18c43" />
   <Project Path="../Herencia/Herencia.csproj" Id="3b3248eb-db34-4d7c-9e2d-b7aecb964768" />
