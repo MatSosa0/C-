@@ -20,6 +20,19 @@ namespace Lists
             };
 
             Console.WriteLine(numbers2.Count);
+            numbers2.Add(37);
+            Console.WriteLine(numbers2.Count);
+            numbers2.Clear();
+            Console.WriteLine(numbers2.Count);
+
+            List<string> countries = new List<string>
+            {
+                "USA",
+                "Canada",
+                "Mexico"
+            };
+
+            Console.WriteLine();
         }
     }
 }
