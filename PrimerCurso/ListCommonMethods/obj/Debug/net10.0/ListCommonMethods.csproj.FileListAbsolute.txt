@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\bin\Debug\net10.0\ListCommonMethods.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\bin\Debug\net10.0\ListCommonMethods.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\bin\Debug\net10.0\ListCommonMethods.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\bin\Debug\net10.0\ListCommonMethods.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\bin\Debug\net10.0\ListCommonMethods.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\refint\ListCommonMethods.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ListCommonMethods.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ListCommonMethods\obj\Debug\net10.0\ref\ListCommonMethods.dll
