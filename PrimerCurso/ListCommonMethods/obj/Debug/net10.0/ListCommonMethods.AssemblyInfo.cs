@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListCommonMethods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d59d41ce1570813ada9df30970a67ffe4770bc67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a595f64d7ff661422d997e52d0cf21aad99121")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListCommonMethods")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListCommonMethods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

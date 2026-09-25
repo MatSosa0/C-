@@ -29,6 +29,17 @@ namespace ListCommonMethods
             Console.WriteLine(pos);
             pos = numbers.IndexOf(100);
             Console.WriteLine(pos);
+
+            //sort
+            numbers.Sort();
+            Show(numbers);
+
+            // Add range
+            numbers.AddRange(new List<int>()
+            {
+                300,200,100
+            });
+            Show(numbers);
         }
 
         public static void Show(List<int> numbers)
