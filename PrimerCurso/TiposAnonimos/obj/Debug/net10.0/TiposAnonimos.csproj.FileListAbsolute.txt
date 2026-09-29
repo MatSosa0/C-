@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\bin\Debug\net10.0\TiposAnonimos.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\bin\Debug\net10.0\TiposAnonimos.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\bin\Debug\net10.0\TiposAnonimos.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\bin\Debug\net10.0\TiposAnonimos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\bin\Debug\net10.0\TiposAnonimos.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\refint\TiposAnonimos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\TiposAnonimos.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TiposAnonimos\obj\Debug\net10.0\ref\TiposAnonimos.dll
