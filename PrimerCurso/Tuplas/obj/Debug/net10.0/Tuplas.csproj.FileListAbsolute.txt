@@ -1,0 +1,15 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\bin\Debug\net10.0\Tuplas.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\bin\Debug\net10.0\Tuplas.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\bin\Debug\net10.0\Tuplas.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\bin\Debug\net10.0\Tuplas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\bin\Debug\net10.0\Tuplas.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\refint\Tuplas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\ref\Tuplas.dll

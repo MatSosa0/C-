@@ -15,6 +15,7 @@
   <Project Path="../SwitchCase/SwitchCase.csproj" Id="583ef56b-406d-4f73-a744-fe45a930a42a" />
   <Project Path="../TipoDeDatos/TipoDeDatos.csproj" Id="f253ac14-9e04-4627-8c07-70deb9280369" />
   <Project Path="../TiposAnonimos/TiposAnonimos.csproj" Id="2ea869e4-7b9c-4604-8f5f-83161ae2aacf" />
+  <Project Path="../Tuplas/Tuplas.csproj" Id="673f298a-77da-4f12-aeb2-1c044b0cab99" />
   <Project Path="../While/While.csproj" Id="8bd10281-cc83-4865-9875-889f36c4f9d7" />
   <Project Path="Variables.csproj" />
 </Solution>
