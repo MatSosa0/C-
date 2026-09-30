@@ -44,7 +44,19 @@ namespace Tuplas
                 Console.WriteLine($"id: {p.id} nombre : {p.name}");
             }
 
+            var cityInfo = getLocationCDMX();
+            Console.WriteLine($"lat: {cityInfo.lat} long: {cityInfo.lng} name: {cityInfo.name}");
+            var (_, lng, _) = getLocationCDMX();
+            Console.WriteLine(lng);
+        }
 
+        public static (float lat, float lng, string name) getLocationCDMX()
+        {
+            float lat = 19.432608f;
+            float lng = -99.133209f;
+            string name = "Ciudad de Mexico";
+
+            return (lat, lng, name);
         }
     }
 }
