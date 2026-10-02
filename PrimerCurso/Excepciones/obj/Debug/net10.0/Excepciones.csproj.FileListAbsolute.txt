@@ -1,0 +1,16 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\bin\Debug\net10.0\Excepciones.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\bin\Debug\net10.0\Excepciones.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\bin\Debug\net10.0\Excepciones.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\bin\Debug\net10.0\Excepciones.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\bin\Debug\net10.0\Excepciones.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\refint\Excepciones.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepciones.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\ref\Excepciones.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Excepciones\obj\Debug\net10.0\Excepcio.37A8D31E.Up2Date
