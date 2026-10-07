@@ -1,0 +1,16 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\bin\Debug\net10.0\ExcepcionesPersonalizadas.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\bin\Debug\net10.0\ExcepcionesPersonalizadas.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\bin\Debug\net10.0\ExcepcionesPersonalizadas.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\bin\Debug\net10.0\ExcepcionesPersonalizadas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\bin\Debug\net10.0\ExcepcionesPersonalizadas.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\refint\ExcepcionesPersonalizadas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ExcepcionesPersonalizadas.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\ref\ExcepcionesPersonalizadas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ExcepcionesPersonalizadas\obj\Debug\net10.0\Excepcio.129D5F41.Up2Date
