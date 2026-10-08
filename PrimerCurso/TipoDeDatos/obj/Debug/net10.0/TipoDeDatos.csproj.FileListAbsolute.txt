@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDatos.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\ref\TipoDeDatos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\TipoDeDatos\obj\Debug\net10.0\TipoDeDa.150AA69C.Up2Date

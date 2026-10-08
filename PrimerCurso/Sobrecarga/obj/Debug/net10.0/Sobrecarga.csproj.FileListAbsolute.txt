@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\ref\Sobrecarga.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Sobrecarga\obj\Debug\net10.0\Sobrecarga.csproj.Up2Date

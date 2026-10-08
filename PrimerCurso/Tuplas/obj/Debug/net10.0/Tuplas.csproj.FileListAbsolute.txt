@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\ref
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\ref\Tuplas.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Tuplas\obj\Debug\net10.0\Tuplas.csproj.Up2Date

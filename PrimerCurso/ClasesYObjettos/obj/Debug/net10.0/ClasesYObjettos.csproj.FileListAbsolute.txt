@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\ne
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYObjettos.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ref\ClasesYObjettos.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\ClasesYObjettos\obj\Debug\net10.0\ClasesYO.B3712542.Up2Date

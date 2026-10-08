@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\While\obj\Debug\net10.0\refi
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\While\obj\Debug\net10.0\While.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\While\obj\Debug\net10.0\While.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\While\obj\Debug\net10.0\ref\While.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\While\obj\Debug\net10.0\While.csproj.Up2Date

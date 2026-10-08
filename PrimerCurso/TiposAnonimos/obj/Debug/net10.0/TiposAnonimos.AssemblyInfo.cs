@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiposAnonimos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de31ffbe9f829ae7e9167805d6e9b8460065434a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce89f1ed248bf29fe0d3956a31466377407556c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiposAnonimos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiposAnonimos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
