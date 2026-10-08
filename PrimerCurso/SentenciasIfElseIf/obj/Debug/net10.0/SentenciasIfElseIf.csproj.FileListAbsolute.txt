@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\SentenciasIfElseIf.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\ref\SentenciasIfElseIf.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SentenciasIfElseIf\obj\Debug\net10.0\Sentenci.AB69B9D2.Up2Date

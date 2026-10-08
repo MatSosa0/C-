@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Funciones\obj\Debug\net10.0\
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Funciones\obj\Debug\net10.0\Funciones.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Funciones\obj\Debug\net10.0\Funciones.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Funciones\obj\Debug\net10.0\ref\Funciones.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Funciones\obj\Debug\net10.0\Funciones.csproj.Up2Date

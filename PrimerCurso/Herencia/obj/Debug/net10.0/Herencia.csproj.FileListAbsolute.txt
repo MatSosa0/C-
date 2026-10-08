@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Herencia\obj\Debug\net10.0\r
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Herencia\obj\Debug\net10.0\Herencia.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Herencia\obj\Debug\net10.0\Herencia.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Herencia\obj\Debug\net10.0\ref\Herencia.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Herencia\obj\Debug\net10.0\Herencia.csproj.Up2Date

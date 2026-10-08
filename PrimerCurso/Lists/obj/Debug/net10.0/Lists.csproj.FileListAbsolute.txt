@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Lists\obj\Debug\net10.0\refi
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Lists\obj\Debug\net10.0\Lists.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Lists\obj\Debug\net10.0\Lists.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Lists\obj\Debug\net10.0\ref\Lists.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Lists\obj\Debug\net10.0\Lists.csproj.Up2Date

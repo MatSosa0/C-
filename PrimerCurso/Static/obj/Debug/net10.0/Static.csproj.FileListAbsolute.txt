@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\ref
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\ref\Static.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Static\obj\Debug\net10.0\Static.csproj.Up2Date

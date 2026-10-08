@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Json\obj\Debug\net10.0\refin
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Json\obj\Debug\net10.0\Json.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Json\obj\Debug\net10.0\Json.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Json\obj\Debug\net10.0\ref\Json.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Json\obj\Debug\net10.0\Json.csproj.Up2Date

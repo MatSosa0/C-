@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\re
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\ref\Foreach.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\Foreach\obj\Debug\net10.0\Foreach.csproj.Up2Date

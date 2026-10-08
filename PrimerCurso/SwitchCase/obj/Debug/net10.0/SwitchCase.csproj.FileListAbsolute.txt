@@ -13,3 +13,4 @@ C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SwitchCase\obj\Debug\net10.0
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SwitchCase\obj\Debug\net10.0\SwitchCase.pdb
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SwitchCase\obj\Debug\net10.0\SwitchCase.genruntimeconfig.cache
 C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SwitchCase\obj\Debug\net10.0\ref\SwitchCase.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\SwitchCase\obj\Debug\net10.0\SwitchCase.csproj.Up2Date
