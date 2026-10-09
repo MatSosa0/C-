@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Variables\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3641BCD8-E9F2-4270-9B05-626FD5F1CBB8}|..\\LINQ_Join\\LINQ_Join.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\linq_join\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D975D256-87AF-4BB8-A1A9-14FBE09A0FD6}|..\\LINQ\\LINQ.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,11 +22,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\LINQ_Join\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LINQ_Join\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\LINQ_Join\\Program.cs",
+              "RelativeToolTip": "..\\LINQ_Join\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T00:05:19.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\LINQ\\Program.cs",
               "RelativeDocumentMoniker": "..\\LINQ\\Program.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\LINQ\\Program.cs",
               "RelativeToolTip": "..\\LINQ\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-08T00:52:15.306Z",
               "EditorCaption": ""
