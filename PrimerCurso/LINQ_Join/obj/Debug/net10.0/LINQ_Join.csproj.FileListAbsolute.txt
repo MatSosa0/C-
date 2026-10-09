@@ -1,0 +1,16 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\bin\Debug\net10.0\LINQ_Join.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\bin\Debug\net10.0\LINQ_Join.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\bin\Debug\net10.0\LINQ_Join.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\bin\Debug\net10.0\LINQ_Join.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\bin\Debug\net10.0\LINQ_Join.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\refint\LINQ_Join.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\ref\LINQ_Join.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\LINQ_Join\obj\Debug\net10.0\LINQ_Join.csproj.Up2Date

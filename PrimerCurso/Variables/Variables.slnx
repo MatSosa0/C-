@@ -10,6 +10,7 @@
   <Project Path="../Interface/Interface.csproj" Id="6e2d9538-77f2-4e6d-a929-f91e975df335" />
   <Project Path="../Json/Json.csproj" Id="aca7296d-db1a-4dd6-a2ef-2866ee15c893" />
   <Project Path="../LINQ/LINQ.csproj" Id="d975d256-87af-4bb8-a1a9-14fbe09a0fd6" />
+  <Project Path="../LINQ_Join/LINQ_Join.csproj" Id="3641bcd8-e9f2-4270-9b05-626fd5f1cbb8" />
   <Project Path="../ListCommonMethods/ListCommonMethods.csproj" Id="0acfeab4-a14b-42cd-ae68-16bf9795b3ee" />
   <Project Path="../Lists/Lists.csproj" Id="9b20c8e0-f153-411d-b105-c91e29fe303f" />
   <Project Path="../SentenciasIfElseIf/SentenciasIfElseIf.csproj" Id="5059f613-0b4f-46e0-aebd-4c0b9ac622e8" />
