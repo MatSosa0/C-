@@ -9,10 +9,14 @@ namespace BaseDeDatos
         {
             try
             {
-                DB db = new DB(@"DESKTOP-NJB8MT2\SQLEXPRESS", "csharpDB", "admin", "123");
-                db.Connect();
+                BeerDB db = new BeerDB(@"DESKTOP-NJB8MT2\SQLEXPRESS", "csharpDB", "admin", "123");
 
-                db.Close();
+                List<Beer> beers = db.GetBeers();
+
+                foreach (var b in beers)
+                {
+                    Console.WriteLine(b.Name);
+                }
             }
             catch(SqlException ex)
             {
