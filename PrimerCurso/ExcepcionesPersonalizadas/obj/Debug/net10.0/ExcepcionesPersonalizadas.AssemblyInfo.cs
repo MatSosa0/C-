@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcepcionesPersonalizadas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4feb812d79a974a68a0a6d06df52c35cfbcb53e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de8fe1f4707c353eb160f4915d0fa16c8d12e901")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcepcionesPersonalizadas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcepcionesPersonalizadas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
