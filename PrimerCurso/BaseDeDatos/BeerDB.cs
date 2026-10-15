@@ -32,5 +32,18 @@ namespace BaseDeDatos
             Close();
             return beers;
         }
+
+        public void AddBeer(Beer beer)
+        {
+            Connect();
+            string query = "INSERT INTO BEER(NAME,BRANDID)" +
+                "Values(@name, @brandId)";
+            SqlCommand command = new SqlCommand(query,_connection);
+            command.Parameters.AddWithValue("@name", beer.Name);
+            command.Parameters.AddWithValue("@brandId", beer.BrandId);
+            command.ExecuteNonQuery();
+
+            Close();
+        }
     }
 }
