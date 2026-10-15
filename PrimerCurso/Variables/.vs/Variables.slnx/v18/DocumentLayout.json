@@ -6,10 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{078E3A1F-5FE2-41D3-8B3C-44CBC4D6C913}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\basededatos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078E3A1F-5FE2-41D3-8B3C-44CBC4D6C913}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\basededatos\\beerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078E3A1F-5FE2-41D3-8B3C-44CBC4D6C913}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\basededatos\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{078E3A1F-5FE2-41D3-8B3C-44CBC4D6C913}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\basededatos\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{078E3A1F-5FE2-41D3-8B3C-44CBC4D6C913}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\basededatos\\beerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{078E3A1F-5FE2-41D3-8B3C-44CBC4D6C913}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\basededatos\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -32,33 +32,33 @@
               "RelativeDocumentMoniker": "..\\BaseDeDatos\\Program.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BaseDeDatos\\Program.cs",
               "RelativeToolTip": "..\\BaseDeDatos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T23:29:42.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Beer.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BaseDeDatos\\Beer.cs",
               "RelativeDocumentMoniker": "..\\BaseDeDatos\\Beer.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BaseDeDatos\\Beer.cs",
               "RelativeToolTip": "..\\BaseDeDatos\\Beer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T23:13:29.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BeerDB.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BaseDeDatos\\BeerDB.cs",
               "RelativeDocumentMoniker": "..\\BaseDeDatos\\BeerDB.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BaseDeDatos\\BeerDB.cs",
               "RelativeToolTip": "..\\BaseDeDatos\\BeerDB.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwCAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T23:17:02.761Z",
               "EditorCaption": ""
@@ -73,8 +73,7 @@
               "RelativeToolTip": "..\\BaseDeDatos\\DB.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T23:12:30.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-13T23:12:30.086Z"
             }
           ]
         }
