@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Data.SqlClient;
+using System.Reflection;
 
 namespace BaseDeDatos
 {

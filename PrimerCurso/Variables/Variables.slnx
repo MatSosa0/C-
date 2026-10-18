@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="../Arreglos/Arreglos.csproj" Id="53369656-ec01-4ae7-9397-2ddfd20e3766" />
   <Project Path="../BaseDeDatos/BaseDeDatos.csproj" Id="078e3a1f-5fe2-41d3-8b3c-44cbc4d6c913" />
+  <Project Path="../BD/BD.csproj" Id="92535372-d0ed-4e8a-a012-e965144f7dce" />
   <Project Path="../ClasesYObjettos/ClasesYObjettos.csproj" Id="7c24c62a-652b-49a4-8e67-c8ec933d35d6" />
   <Project Path="../Excepciones/Excepciones.csproj" Id="17f6bf83-5d41-4ceb-ac38-522708deabef" />
   <Project Path="../ExcepcionesPersonalizadas/ExcepcionesPersonalizadas.csproj" Id="8ec187f9-2158-48f2-bca9-6a1905c9d980" />
