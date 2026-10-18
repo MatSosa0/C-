@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PrimerCurso",
+    "\\PrimerCurso\\BD"
   ],
+  "SelectedNode": "\\PrimerCurso\\BD\\BD.csproj",
   "PreviewInSolutionExplorer": false
 }
