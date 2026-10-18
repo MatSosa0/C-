@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Data.SqlClient;
 
 namespace BaseDeDatos
@@ -28,6 +29,9 @@ namespace BaseDeDatos
                             break;
                         case 3:
                             Edit(db);
+                            break;
+                        case 4:
+                            Delete(db);
                             break;
                         case 5:
                             again = false;
@@ -101,6 +105,27 @@ namespace BaseDeDatos
             {
                 Console.WriteLine("Cerveza no encontrada");
             }
+        }
+
+        public static void Delete(BeerDB beerDB)
+        {
+            Console.Clear();
+            Console.WriteLine("Eliminar Cerveza");
+            Console.WriteLine("Escribe el ID de la cerveza a eliminar:");
+            int id = int.Parse(Console.ReadLine());
+
+            Beer beer = beerDB.Get(id);
+
+            if (beer != null)
+            {
+                beerDB.DeleteBeer(id);
+            }
+            else
+            {
+                Console.WriteLine("La cerveza no fue encontrada");
+            }
+
+
         }
     }
 }

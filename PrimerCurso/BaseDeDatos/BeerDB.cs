@@ -80,5 +80,16 @@ namespace BaseDeDatos
 
             Close();
         }
+
+        public void DeleteBeer(int id)
+        {
+            Connect();
+            string query = "DELETE FROM BEER WHERE ID=@id";
+            SqlCommand command = new SqlCommand(query, _connection);
+            command.Parameters.AddWithValue("@id", id);
+            command.ExecuteNonQuery();
+
+            Close();
+        }
     }
 }
