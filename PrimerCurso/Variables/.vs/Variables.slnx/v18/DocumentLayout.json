@@ -3,13 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\Variables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92535372-D0ED-4E8A-A012-E965144F7DCE}|..\\BD\\BD.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\bd\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4289A645-1318-488E-9035-691A83A103A9}|..\\EntityFrameworkSystem\\EntityFrameworkSystem.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\entityframeworksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92535372-D0ED-4E8A-A012-E965144F7DCE}|..\\BD\\BD.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\bd\\models\\csharpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92535372-D0ED-4E8A-A012-E965144F7DCE}|..\\BD\\BD.csproj|c:\\users\\windows 11\\documents\\github\\c-\\primercurso\\bd\\models\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,34 +16,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BD\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "..\\BD\\Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BD\\Models\\Brand.cs",
-              "RelativeToolTip": "..\\BD\\Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T16:48:13.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Beer.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BD\\Models\\Beer.cs",
-              "RelativeDocumentMoniker": "..\\BD\\Models\\Beer.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BD\\Models\\Beer.cs",
-              "RelativeToolTip": "..\\BD\\Models\\Beer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T16:49:25.351Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -55,9 +26,22 @@
               "RelativeDocumentMoniker": "..\\BD\\Models\\CsharpDbContext.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\BD\\Models\\CsharpDbContext.cs",
               "RelativeToolTip": "..\\BD\\Models\\CsharpDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T16:47:55.702Z",
+              "WhenOpened": "2026-10-20T00:48:38.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\EntityFrameworkSystem\\Program.cs",
+              "RelativeDocumentMoniker": "..\\EntityFrameworkSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Documents\\GitHub\\C-\\PrimerCurso\\EntityFrameworkSystem\\Program.cs",
+              "RelativeToolTip": "..\\EntityFrameworkSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T00:03:03.104Z",
               "EditorCaption": ""
             }
           ]
