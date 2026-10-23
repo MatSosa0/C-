@@ -28,7 +28,7 @@ namespace EntityFrameworkSystem
                         Show(optionsBuilder);
                         break;
                     case 2:
-                        //Add(optionsBuilder);
+                        Add(optionsBuilder);
                         break;
                         
                 }
@@ -38,6 +38,25 @@ namespace EntityFrameworkSystem
             
         }
 
+        public static void Add(DbContextOptionsBuilder<CsharpDbContext> optionBuilder)
+        {
+            Console.Clear();
+            Console.WriteLine("Agregar nueva Cerveza");
+            Console.WriteLine("Escribe el nombre: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Escribe el ID de la marca: ");
+            int brandId = int.Parse(Console.ReadLine());
+            using (var context = new CsharpDbContext(optionBuilder.Options))
+            {
+                Beer beer = new Beer()
+                {
+                    Name = name,
+                    BrandId = brandId
+                };
+                context.Add(beer);
+                context.SaveChanges();
+            }
+        }
         public static void Show(DbContextOptionsBuilder<CsharpDbContext> optionBuilder)
         {
             Console.Clear();
