@@ -3,6 +3,7 @@ using BD.Models;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using System.ComponentModel.DataAnnotations;
 
 namespace EntityFrameworkSystem
 {
@@ -30,6 +31,12 @@ namespace EntityFrameworkSystem
                     case 2:
                         Add(optionsBuilder);
                         break;
+                    case 3:
+                        Edit(optionsBuilder);
+                        break;
+                    case 5:
+                        again = false;
+                        break;
                         
                 }
 
@@ -55,6 +62,33 @@ namespace EntityFrameworkSystem
                 };
                 context.Add(beer);
                 context.SaveChanges();
+            }
+        }
+        public static void Edit(DbContextOptionsBuilder<CsharpDbContext> optionBuilder)
+        {
+            Console.Clear();
+            Show(optionBuilder);
+            Console.WriteLine("Edita una Cerveza");
+            Console.WriteLine("ID de la cerveza a editar: ");
+            int id = int.Parse(Console.ReadLine());
+            using (var context = new CsharpDbContext(optionBuilder.Options))
+            {
+                Beer beer = context.Beers.Find(id);
+                if (beer != null)
+                {
+                    Console.WriteLine("Escriba el nuevo nombre:");
+                    string name = Console.ReadLine();
+                    Console.WriteLine("Escribe el id de la marca");
+                    int brandId = int.Parse(Console.ReadLine());
+                    beer.Name = name;
+                    beer.BrandId = brandId;
+                    context.Entry(beer).State = EntityState.Modified;
+                    context.SaveChanges();
+                }
+                else 
+                {
+                    Console.WriteLine("Cerveza no encontrada");
+                }
             }
         }
         public static void Show(DbContextOptionsBuilder<CsharpDbContext> optionBuilder)
