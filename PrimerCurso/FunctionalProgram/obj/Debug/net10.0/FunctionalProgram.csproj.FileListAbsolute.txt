@@ -1,0 +1,16 @@
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\bin\Debug\net10.0\FunctionalProgram.exe
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\bin\Debug\net10.0\FunctionalProgram.deps.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\bin\Debug\net10.0\FunctionalProgram.runtimeconfig.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\bin\Debug\net10.0\FunctionalProgram.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\bin\Debug\net10.0\FunctionalProgram.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.AssemblyInfoInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.AssemblyInfo.cs
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.csproj.CoreCompileInputs.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.sourcelink.json
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\refint\FunctionalProgram.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.pdb
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\FunctionalProgram.genruntimeconfig.cache
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\ref\FunctionalProgram.dll
+C:\Users\Windows 11\Documents\GitHub\C-\PrimerCurso\FunctionalProgram\obj\Debug\net10.0\Function.D503E326.Up2Date
