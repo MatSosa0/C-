@@ -8,6 +8,7 @@
   <Project Path="../ExcepcionesPersonalizadas/ExcepcionesPersonalizadas.csproj" Id="8ec187f9-2158-48f2-bca9-6a1905c9d980" />
   <Project Path="../Foreach/Foreach.csproj" Id="86dbe7bb-cdd4-4e84-b7d3-5acf113e3d1d" />
   <Project Path="../Funciones/Funciones.csproj" Id="be11dc2c-575e-4756-8170-f275d9e5dc53" />
+  <Project Path="../FunctionalProgram/FunctionalProgram.csproj" Id="a5c770f5-32b2-4df2-8805-c0ccb99e0ca1" />
   <Project Path="../Generic/Generic.csproj" Id="503ed647-e4d0-4d85-b4f7-4462b0d18c43" />
   <Project Path="../Herencia/Herencia.csproj" Id="3b3248eb-db34-4d7c-9e2d-b7aecb964768" />
   <Project Path="../Interface/Interface.csproj" Id="6e2d9538-77f2-4e6d-a929-f91e975df335" />
