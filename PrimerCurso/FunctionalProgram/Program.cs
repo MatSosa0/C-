@@ -19,11 +19,50 @@ show += Functions.ConsoleShow;
 
 #region Action
 Action<string> showMessage = Console.WriteLine;
-showMessage("Hola");
-Functions.SomeAction("Matias", "Meza", showMessage);
+//expresiones labda una funcion anonima que solo existe en este contexto
+Action<string, string> showMessage2 = (a, b) => { Console.WriteLine($"{a} + {b}"); };
+//showMessage2("Matias", "Meza");
+Action<string, string, string> showMessage3 = (a, b, c) => { Console.WriteLine($"{a} {b} {c}"); };
+//showMessage3("Matias", "Meza", "Junior Dev");
+//Functions.SomeAction("Matias", "Meza", (a) => {
+//    Console.WriteLine("Soy una expresion Lambda " + a);
+//});
+//Functions.SomeAction("Matias", "Meza", showMessage);
 #endregion
 
-#region Delegados
+#region Func
+
+Func<int> numberRandom = () => new Random().Next(0,100);
+Func<int, int> numberRandomLimit = (limit) => new Random().Next(0, limit);
+//Console.WriteLine(numberRandom());
+//Console.WriteLine(numberRandomLimit(76));
+#endregion
+
+#region Predicate
+Predicate<string> hasSpaceOrA = (word) => word.Contains(" ") || word.ToUpper().Contains("A");
+Console.WriteLine(hasSpaceOrA("Hola Mundo"));
+Console.WriteLine(hasSpaceOrA("Matias"));
+
+var words = new List<string>()
+{
+    "beer", "patito", "sandia", "Hola Mundo", "c#"
+};
+Console.WriteLine("------FinAll-------");
+var wordsNew = words.FindAll(hasSpaceOrA);
+foreach(var a in wordsNew)
+{
+    Console.WriteLine(a);
+}
+Console.WriteLine("------Negacion-------");
+//negando
+var wordsNew2 = words.FindAll((w)=>!hasSpaceOrA(w));
+foreach (var a in wordsNew2)
+{
+    Console.WriteLine(a);
+}
+#endregion
+
+#region Delegados 
 delegate int Operation(int a, int b);
 public delegate void Show(string message);
 
